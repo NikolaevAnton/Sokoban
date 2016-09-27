@@ -13,6 +13,9 @@
 		84E0AB6A1D9AC5A5005D390F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E0AB691D9AC5A5005D390F /* Assets.xcassets */; };
 		84E0AB6D1D9AC5A5005D390F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E0AB6B1D9AC5A5005D390F /* LaunchScreen.storyboard */; };
 		84E0AB751D9AC687005D390F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0AB741D9AC687005D390F /* Game.swift */; };
+		84E0AB771D9AC773005D390F /* ObjectsForGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0AB761D9AC773005D390F /* ObjectsForGame.swift */; };
+		84E0AB791D9AC7D1005D390F /* Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0AB781D9AC7D1005D390F /* Logic.swift */; };
+		84E0AB7B1D9AC816005D390F /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0AB7A1D9AC816005D390F /* Printer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		84E0AB6C1D9AC5A5005D390F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E0AB6E1D9AC5A5005D390F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E0AB741D9AC687005D390F /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		84E0AB761D9AC773005D390F /* ObjectsForGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectsForGame.swift; sourceTree = "<group>"; };
+		84E0AB781D9AC7D1005D390F /* Logic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logic.swift; sourceTree = "<group>"; };
+		84E0AB7A1D9AC816005D390F /* Printer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Printer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				84E0AB6B1D9AC5A5005D390F /* LaunchScreen.storyboard */,
 				84E0AB6E1D9AC5A5005D390F /* Info.plist */,
 				84E0AB741D9AC687005D390F /* Game.swift */,
+				84E0AB761D9AC773005D390F /* ObjectsForGame.swift */,
+				84E0AB781D9AC7D1005D390F /* Logic.swift */,
+				84E0AB7A1D9AC816005D390F /* Printer.swift */,
 			);
 			path = Sokoban;
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E0AB7B1D9AC816005D390F /* Printer.swift in Sources */,
 				84E0AB651D9AC5A5005D390F /* ViewController.swift in Sources */,
+				84E0AB791D9AC7D1005D390F /* Logic.swift in Sources */,
 				84E0AB751D9AC687005D390F /* Game.swift in Sources */,
+				84E0AB771D9AC773005D390F /* ObjectsForGame.swift in Sources */,
 				84E0AB631D9AC5A5005D390F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
