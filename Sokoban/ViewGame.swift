@@ -11,6 +11,7 @@ import UIKit
 
 class ViewGame : UIViewController {
     
+    
     @IBAction func Up(sender: AnyObject) {
         moves(.Up)
     }

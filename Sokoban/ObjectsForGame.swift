@@ -11,12 +11,12 @@ import Foundation
 //массив, в котором заключены все
 //симольные отображения каждой координаты поля
 enum Image : String {
-    case Wall     = "⬛️"
-    case Man      = "😐"
-    case Floor    = "⬜️"
-    case Box      = "💰"
-    case Target   = "🏁"
-    case HappyMan = "🤑"
+    case Wall     = "🍎"
+    case Man      = "😶"
+    case Floor    = "🌌"
+    case Box      = "🍷"
+    case Target   = "💃🏼"
+    case HappyMan = "🔞"
 }
 
 enum Step {
